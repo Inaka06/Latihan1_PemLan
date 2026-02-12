@@ -21,24 +21,24 @@ public void luas()
 Atribut seperti sisi, jari_jari, dan luas dibuat private untuk menjaga akses langsung dari luar kelas.
 Penjelasan Kelas:
 
-1. BidangDuaDimensi
+a. BidangDuaDimensi
 Kelas induk yang memiliki:
 - Atribut nama
 - Method info()
 - Method luas() (akan dioverride oleh subclass)
 Berfungsi sebagai kerangka dasar untuk bangun dua dimensi.
 
-2. BujurSangkar
+b. BujurSangkar
 Memiliki:
 - Atribut sisi
 - Method luas() untuk menghitung luas dengan rumus:
-```  luas = sisi × sisi```
+```luas = sisi × sisi```
 
-3. Lingkaran
+c. Lingkaran
 Memiliki:
 - Atribut jari_jari(r)
 - Method luas() untuk menghitung luas dengan rumus:
-```  luas = π × r x r```
+```luas = π × r x r```
 Menggunakan konstanta Math.PI dari Java.
 
 Contoh Output
